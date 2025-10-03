@@ -1,6 +1,6 @@
 // 🛑 IMPORTANT: The secret key is NO LONGER here 🛑
 
-const PROXY_ENDPOINT = 'https://nyxai-r253.onrender.com'; // Your new backend server URL
+const PROXY_ENDPOINT = 'https://nyxai-r253.onrender.com/api/generate'; // Your new backend server URL
 
 /**
  * Generates a response by calling the secure backend proxy.
@@ -41,3 +41,4 @@ export async function generateResponse(userMessage, personality, model = 'deepse
     }
 
 }
+
