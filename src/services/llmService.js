@@ -1,6 +1,6 @@
 // 🛑 IMPORTANT: The secret key is NO LONGER here 🛑
 
-const PROXY_ENDPOINT = 'http://localhost:3001/api/generate'; // Your new backend server URL
+const PROXY_ENDPOINT = 'https://nyxai-r253.onrender.com'; // Your new backend server URL
 
 /**
  * Generates a response by calling the secure backend proxy.
@@ -39,4 +39,5 @@ export async function generateResponse(userMessage, personality, model = 'deepse
         console.error('❌ Network or Proxy connection error:', error);
         return '[Error connecting to the chat service]';
     }
+
 }
