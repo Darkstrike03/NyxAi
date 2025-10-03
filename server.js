@@ -13,7 +13,7 @@ const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 // 2. Add your local and future Vercel domain here!
 const allowedOrigins = [
     `http://localhost:3000`, // Your local frontend
-    'https://https://nyx-ai-zeta.vercel.app/', // <-- 🛑 REPLACE THIS with your Vercel URL
+    'https://https://nyx-ai-beta.vercel.app/', // <-- 🛑 REPLACE THIS with your Vercel URL
 ];
 
 const corsOptions = {
@@ -94,5 +94,6 @@ Respond to the user message below in a way that reflects your personality.
 app.listen(PORT, () => {
     console.log(`🚀 Proxy Server running on port ${PORT}`);
 });
+
 
 
