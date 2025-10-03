@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 
 // --- SECRET CONFIGURATION (The hosting platform injects this into process.env) ---
 // Note: Changed access variable name to be more standard for a Node.js backend
-const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY; 
+const OPENROUTER_API_KEY = process.env.REACT_APP_OPENROUTER_API_KEY; 
 
 // --- CORS CONFIGURATION (CRUCIAL for cross-domain requests) ---
 // 2. Add your local and future Vercel domain here!
@@ -94,6 +94,7 @@ Respond to the user message below in a way that reflects your personality.
 app.listen(PORT, () => {
     console.log(`🚀 Proxy Server running on port ${PORT}`);
 });
+
 
 
 
